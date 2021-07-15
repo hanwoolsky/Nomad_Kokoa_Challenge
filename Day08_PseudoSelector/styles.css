@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(232, 232, 232);
+  }
+  .whole{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main{
+    font: bold 36px/1 sans-serif;
+    width: 100vw;
+    text-align: center;
+  }
+  .picture{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 550px;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px;
+  }
+  .card:nth-child(1) div{
+    background-color: tomato;
+  }
+  .card:nth-child(2) div{
+    background-color:teal;
+  }
+  .card:nth-child(3) div{
+    background-color: burlywood;
+  }
+  .card:nth-child(4) div{
+    background-color: thistle;
+  }
+  .small{
+    margin-top: 5px;
+    width: 240px;
+    height: 15px;
+  }
+  .big{
+    margin-top: 120px;
+    width: 240px;
+    height: 200px;
+  }
+  .text{
+    font: bold 20px/1 sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  .color{
+    top:50px;
+  }
