@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 .top-bar{
   display: flex;
   justify-content: space-between;
